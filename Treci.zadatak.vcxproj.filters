@@ -18,5 +18,11 @@
     <ClCompile Include="treci16.1.26.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="treci12.11.25.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treci28.10.25.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

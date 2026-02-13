@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Treci.zadatak.vcxproj" />
+  <Project Path="Treci.zadatak.vcxproj" Id="7c0824f7-58fa-44ca-936c-31fc6e229a37" />
 </Solution>

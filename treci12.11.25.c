@@ -39,11 +39,11 @@ int main() {
 	int mat[100][100], n, i, j, s1, s2;
 	double aritSred;
 	FILE* file;
-	file = fopen("matrica.txt", "r");
-	fscanf(file, "%d", &n);
+	file = fopen_s(&file, "matrica.txt", "r");
+	fscanf_s(file, "%d", &n);
 	for (i = 0; i < n; i++) {
 		for (j = 0; j < n; j++) {
-			fscanf(file, "%d", &mat[i][j]);
+			fscanf_s(file, "%d", &mat[i][j]);
 		}
 	}
 	fclose(file);
