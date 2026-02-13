@@ -4,6 +4,9 @@ Kolekcija zadataka iz programskog jezika C - rad sa kvadratnim matricama. Svaki 
 
 ## Fajlovi
 
+### treci9.10.25.c - Maksimum na parnim pozicijama i minimum ispod sporedne dijagonale
+Program ucitava dimenziju i elemente celobrojne kvadratne matrice iz fajla `matrica.txt`. Na pocetku fajla se nalazi dimenzija matrice, a zatim slede elementi razdvojeni blanko znakom. Program prolazi kroz matricu i pronalazi maksimalni element na pozicijama ciji je zbir indeksa paran broj (npr. pozicije (0,0), (0,2), (1,1), (2,0)...), kao i minimalni element koji se nalazi ispod sporedne dijagonale (pozicije gde je zbir reda i kolone veci ili jednak od N). Na standardnom izlazu ispisuje proizvod ta dva broja.
+
 ### treci21.10.25.c - Zamena vrste sa najvecom sumom
 Program ucitava dimenziju i elemente celobrojne kvadratne matrice iz fajla `ulaz.txt`. Na pocetku fajla se nalazi dimenzija matrice, a zatim slede elementi razdvojeni blanko znakom. Program prolazi kroz svaku vrstu matrice, racuna sumu njenih elemenata i pronalazi vrstu koja ima najvecu sumu. Nakon toga, ta vrsta se zamenjuje sa prvom vrstom u matrici. Na kraju se prikazuje matrica nakon izvrsene transformacije, gde je svaki element razdvojen blanko znakom i svaka vrsta je u novom redu.
 
