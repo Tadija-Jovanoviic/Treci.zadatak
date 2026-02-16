@@ -16,5 +16,11 @@ Program formira kvadratnu matricu NxN na osnovu uputstava iz fajla `matrica.txt`
 ### treci12.11.25.c - Dijagonale i prebrojavanje elemenata
 Program ucitava dimenziju i elemente kvadratne matrice iz fajla `matrica.txt`. Implementirane su tri funkcije: `sumaG` racuna sumu elemenata na glavnoj dijagonali (elementi gde je red jednak koloni), `sumaS` racuna sumu elemenata na sporednoj dijagonali (elementi od gornjeg desnog do donjeg levog ugla), a `brojElemenata` broji koliko elemenata ispod glavne dijagonale ima vrednost vecu ili jednaku od aritmeticke sredine te dve sume. Program na kraju prikazuje ukupan broj pronadjenih elemenata.
 
+### treci6.12.24.c - Kolona sa najvecom sumom
+Program ucitava dimenziju i elemente celobrojne kvadratne matrice iz fajla `matrica.txt`. Na pocetku fajla se nalazi dimenzija matrice, a zatim slede elementi razdvojeni blanko znakom. Program prolazi kroz svaku kolonu matrice, racuna sumu njenih elemenata i pronalazi kolonu koja ima najvecu sumu (pretpostavlja se da postoji samo jedna takva kolona). Na standardnom izlazu prikazuje elemente te kolone u jednom redu razdvojene blanko znakom.
+
+### treci30.8.25.c - Suma apsolutnih vrednosti na dijagonalama
+Program ucitava dimenziju i elemente celobrojne kvadratne matrice iz fajla `matrica.txt`. Program odredjuje sumu apsolutnih vrednosti elemenata na i ispod glavne dijagonale, kao i sumu apsolutnih vrednosti elemenata na i iznad sporedne dijagonale. Na izlazu prikazuje vrednost vece od te dve sume.
+
 ### treci16.1.26.c - Formiranje matrice sa dijagonalama
 Program ucitava dimenziju matrice iz fajla `dimenzija.txt` i formira kvadratnu matricu po posebnim pravilima. Svi elementi koji se nalaze na glavnoj dijagonali (gde je red jednak koloni) ili na sporednoj dijagonali (gde je zbir reda i kolone jednak N-1) dobijaju vrednost 1. Preostali elementi se popunjavaju uzastopnim brojevima pocevsi od 2, i to po kolonama, preskakajuci vec popunjene pozicije na dijagonalama. Nakon formiranja matrice, program racuna aritmeticku sredinu svih elemenata koji se istovremeno nalaze iznad glavne i iznad sporedne dijagonale, i prikazuje je zaokruzenu na dve decimale.
