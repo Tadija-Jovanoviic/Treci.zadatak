@@ -3,5 +3,14 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Treci.zadatak.vcxproj" Id="7c0824f7-58fa-44ca-936c-31fc6e229a37" />
+  <Project Path="../treci10_9_24/treci10_9_24.vcxproj" Id="4f75b451-da44-4a9c-b267-688237af77c2" />
+  <Project Path="../treci_30_8_25/treci_30_8_25.vcxproj" Id="508e723a-7b5c-4890-bb52-a8ed7eac6bf7" />
+  <Project Path="../treci_6_12_24/treci_6_12_24.vcxproj" Id="19195056-d8aa-463d-9598-dea402e3424a" />
+  <Project Path="treci12_11_25.vcxproj" Id="78e84877-ea74-429f-89b7-27a9c3ca86b9" />
+  <Project Path="treci12_9_25.vcxproj" Id="a3445629-6c80-48d2-b293-e4fa7c2dd00b" />
+  <Project Path="treci16_1_26.vcxproj" Id="a6ef4db7-3192-4d08-af70-4bc2d1eea7f9" />
+  <Project Path="treci21_10_25.vcxproj" Id="e4e5545a-73fa-4168-96cd-3d61fdfe441d" />
+  <Project Path="treci25_9_25.vcxproj" Id="e6381861-1a3e-4e53-8d85-aff01a991e0c" />
+  <Project Path="treci28_10_25.vcxproj" Id="49b5ccb3-7162-4228-b156-47f6c6bb404c" />
+  <Project Path="treci9_10_25.vcxproj" Id="49012a5d-60ca-4df1-9833-e44a788a2516" />
 </Solution>

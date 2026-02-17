@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7c0824f7-58fa-44ca-936c-31fc6e229a37}</ProjectGuid>
-    <RootNamespace>Trecizadatak</RootNamespace>
+    <ProjectGuid>{78e84877-ea74-429f-89b7-27a9c3ca86b9}</ProjectGuid>
+    <RootNamespace>treci12_11_25</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Project64\treci25.9.25.c" />
     <ClCompile Include="treci12.11.25.c" />
-    <ClCompile Include="treci16.1.26.c" />
-    <ClCompile Include="treci21.10.25.c" />
-    <ClCompile Include="treci28.10.25.c" />
-    <ClCompile Include="treci9.10.25.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

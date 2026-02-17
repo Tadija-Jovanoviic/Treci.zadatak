@@ -24,5 +24,14 @@
     <ClCompile Include="treci28.10.25.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="treci21.10.25.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treci9.10.25.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Project64\treci25.9.25.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

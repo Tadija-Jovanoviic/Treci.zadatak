@@ -12,12 +12,12 @@ void main()
 	int glavna = 0;
 	int sporedna = 0;
 	FILE* f = fopen("matrica.txt", "r");
-	fscanf(f, "%d", &N);
+	fscanf_s(f, "%d", &N);
 	for (i = 0; i < N; i++)
 	{
 		for (j = 0; j < N; j++)
 		{
-			fscanf(f, "%d", &A[i][j]);
+			fscanf_s(f, "%d", &A[i][j]);
 		}
 	}
 	fclose(f);

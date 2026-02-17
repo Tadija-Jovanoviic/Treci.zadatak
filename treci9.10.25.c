@@ -12,10 +12,10 @@ int main()
 	int A[10][10], n, i, j, min, max, max_init = 0, min_init = 0;
 	FILE* f = fopen("matrica.txt", "r");
 	if (f) {
-		fscanf(f, "%d", &n);
+		fscanf_s(f, "%d", &n);
 		for (i = 0; i < n; i++)
 			for (j = 0; j < n; j++)
-				fscanf(f, "%d", &A[i][j]);
+				fscanf_s(f, "%d", &A[i][j]);
 		for (i = 0; i < n; i++)
 			for (j = 0; j < n; j++)
 			{

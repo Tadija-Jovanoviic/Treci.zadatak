@@ -18,9 +18,9 @@ int main() {
 	int suma = 0;
 	int brojEl = 0;
 	FILE* fp;
-	fp = fopen("dimenzija.txt", "r");
+	fp = fopen_s("dimenzija.txt", "r");
 	if (fp) {
-		fscanf(fp, "%d", &n);
+		fscanf_s(fp, "%d", &n);
 		for (i = 0; i < n; i++) {
 			for (j = 0; j < n; j++) {
 				if (i == j || i + j == n - 1) {
